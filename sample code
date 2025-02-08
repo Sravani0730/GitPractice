@@ -14,7 +14,7 @@ class TodoApp:
         if self.tasks:
             print("Your tasks:git output")
             for idx, task in enumerate(self.tasks, start=1):
-                print(f"{idx}. {task}")
+                print(f"{idx}.{task completed successfully}")
         else:
             print("Your to-do list is empty!")
 
