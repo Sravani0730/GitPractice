@@ -7,12 +7,12 @@ class TodoApp:
     def add_task(self, task):
         """Add a task to the to-do list."""
         self.tasks.append(task)
-        print(f"Task '{task}' added!")
+        print(f"Task '{gitpractice}' added!")
 
     def view_tasks(self):
         """Display all tasks."""
         if self.tasks:
-            print("Your tasks:")
+            print("Your tasks:git output")
             for idx, task in enumerate(self.tasks, start=1):
                 print(f"{idx}. {task}")
         else:
